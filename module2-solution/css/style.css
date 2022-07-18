@@ -9,7 +9,8 @@ body{
 h1 {
   text-align: center;
   font-size: 1.75em;	
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 div{
@@ -68,7 +69,7 @@ div.hov:hover{
 }
 
 .row {
-  width: 100%;
+  /*width: 100%;*/
   border: 0px;
   padding-right: 2.5%;
   background-color: white;
@@ -85,13 +86,13 @@ div.hov:hover{
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-6{
 		float:  left;
-		width: 47.5%;
+		width: 46.25%;
 	}
 	.col-md-12{
 		float: left;
 		margin-top: 2.5%;
 		margin-right: 2.5%;
-		width: 97.5%;
+		width: 95.0%;
 	}
 }
 
