@@ -63,11 +63,6 @@ div.hov:hover{
 	background-color: lightyellow;
 }
 
-#p1{
-	position: relative;
-	top: 10px;
-}
-
 .row {
   /*width: 100%;*/
   border: 0px;
