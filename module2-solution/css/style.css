@@ -2,9 +2,13 @@
 	box-sizing: border-box;
 }
 
+body{
+	font-family: Baskerville;
+}
+
 h1 {
   text-align: center;
-  font-size: 36px;	
+  font-size: 1.75em;	
   margin-bottom: 15px;
 }
 
@@ -20,7 +24,6 @@ p {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
   color: white;
   padding-top: 25px;
 }
@@ -36,6 +39,15 @@ p {
 	border: 1px solid black;
 	color: black;
 	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.hov{
+
+}
+
+div.hov:hover{
+	background-color: green;
 }
 
 .chicken{
@@ -58,14 +70,15 @@ p {
 .row {
   width: 100%;
   border: 0px;
-  padding: 2.5% 2.5% 2.5% 2.5%;
+  padding-right: 2.5%;
   background-color: white;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
 	.col-lg-4{
 		float: left;
-		width:  30.33%;
+		width:  30.0%;
 	}
 }
 
@@ -77,6 +90,7 @@ p {
 	.col-md-12{
 		float: left;
 		margin-top: 2.5%;
+		margin-right: 2.5%;
 		width: 97.5%;
 	}
 }
@@ -85,6 +99,8 @@ p {
 	.col-sm-12{
 		float: left;
 		margin-top: 2.5%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 		width: 97.5%%;
 	}
 }
