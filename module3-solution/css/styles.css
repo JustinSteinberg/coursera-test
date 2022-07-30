@@ -1,5 +1,6 @@
 *{
   margin: 0;
+
 }
 
 #header-nav {
@@ -21,15 +22,44 @@
   line-height: .75;
 }
 
-.col-md-12{
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav{
+  margin-top: 72px;
+}
+
+.col-md-12, .col-sm-12, .col-xs-12{
   border: 1px solid #61122f;
   background-color: lightgray;
   margin-bottom: 15px;
 }
 
 .Menu-Header {
-  text-align: center;
-  margin-bottom: 15px;
+ /* text-align: center; */
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Food-Header{
