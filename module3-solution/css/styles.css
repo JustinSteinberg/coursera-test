@@ -1,13 +1,13 @@
 *{
   margin: 0;
-
+  box-sizing: border-box;
 }
 
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 0 0;
 }
 
 .navbar-brand {
@@ -20,12 +20,6 @@
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-}
-
-#header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
 }
 
 #nav-list {
@@ -47,7 +41,8 @@ button.navbar-toggle {
 }
 
 #collapsable-nav{
-  margin-top: 72px;
+  margin-top: 62px;
+  background-color: lightblue;
 }
 
 .col-md-12, .col-sm-12, .col-xs-12{
